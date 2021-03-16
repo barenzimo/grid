@@ -1,0 +1,90 @@
+body{
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #e4fbff;
+  line-height: 1.5;
+}
+img{
+  border-radius: 100%;
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  float: left;
+}
+
+h4{
+  font-weight: 500;
+}
+h2{
+  font-weight: 600;
+}
+.subtitle{
+  opacity: 50%;
+}
+p{
+  opacity: 70%;
+}
+
+.svg{
+  position: absolute;
+  right: 0.5px;
+  top: 0;
+}
+
+.container {
+  margin:auto;
+  display: grid;
+  padding: 120px;
+  width: 70%;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 25px;
+}
+.commonitem{
+  text-align: left;
+  padding: 25px;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+}
+
+
+
+.Daniel{
+  background-color: hsl(263, 55%, 52%);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color:White;
+
+  position: relative;
+
+}
+.Jonathan{
+  background-color:  hsl(217, 19%, 35%);
+  color:White;
+
+}
+.Kira{
+  background-color: hsl(0, 0%, 100%);
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  color: hsl(217, 19%, 35%);
+
+
+}
+.Jeanette{
+  background-color: hsl(0, 0%, 100%);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: hsl(217, 19%, 35%);
+}
+
+.Patrick{
+  background-color:  hsl(219, 29%, 14%);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  color:White;
+
+}
